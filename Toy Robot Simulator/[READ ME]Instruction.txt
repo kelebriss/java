@@ -1,0 +1,19 @@
+Instruction
+
+0. This Programming code is written in JAVA and used eclipse IDE. This project is composed of 2 JAVA class, Simulator and Robot.
+
+1. Simulator class is main class of this project that read the command prompt line and verify the command to control the robot. it has only main method.
+
+1-1. PLACE, coordinate and direction command is split twice by delimiter “ “ and “,”
+
+1-2. Try catch function is for to prevent unexpected error from read command prompt and Array Index Out of Bound error.
+
+2. Robot Class is containing the information about coordinate and direction, also, it can process user command such as MOVE, LEFT, RIGHT and REPORT. this class is consisting with getter, setter and few methods that manage the robot to be controlled by user.
+
+2-1. MOVE method is making robot forward to face direction, using switch function that distinguish the direction of the robot, each direction has own formula to compute the coordinate value. NORTH/SOUTH is depending on Y-axis, so it effects on coordinate Y value. WEST/EAST is depending on X-axis, so it effects on coordinate X value.
+
+2-2. LEFT/RIGHT method is making robot change the direction, it is also using switch function. It is similar as MOVE function. RIGHT is simply rotating the direction to right side such as NORTH to be EAST. LEFT is same as RIGHT method just different side rotating.
+
+2-3. RESULT method is print OUTPUT which included coordinate and the robot’s direction.
+
+3. Test result is captured and attached together with java file and this txt file. 
